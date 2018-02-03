@@ -242,25 +242,69 @@ input[type=submit] {
 
 /*Media Queries*/
 
-@media only screen and (max-width: 594px){
-body{
-  font-size:22px;
-}
+@media only screen and (max-width: 980px){
+    .main-section{ 
 
-#logo {
-      float: left;
-      width: 420px;
-      height: 90px;
-      font-family: Georgia, Times, "Times New Roman", serif;
-      font-size: 30px;
-      font-weight: 700;
-      line-height: 90px;
-      color: #fff;
-      text-align: center;
-      text-decoration: none;
-      background: #4aaaa5;
+      max-width: 310px;
     }
 
+    .container{
+      max-width: 610px;
+    }
+
+    .auth-image{
+      width: 250px;
+      padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px)  {
+    #masthead {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+  .container {
+    width: 95%;
+    max-width: 768px;
+    margin: 0 auto;
+    clear: both;
+  }
+  nav {
+    float: right;
+    margin-top: 25px;
+    padding-right: 15px;
+  }
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 768px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  .sidebar {
+    float: right;
+    width: 100%;
+    max-width: 768px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  h1 {
+    padding-bottom: 5px;
+    font-size: 22px;
+    line-height: 49px;
+    border-bottom: 2px solid #ddd;
+  }
 }
 
 @media only screen and (max-width: 640px) and (min-width: 595px ){
@@ -349,62 +393,36 @@ body{
 
 }
 
-@media only screen and (max-width: 768px){
-    #masthead {
-    position: absolute;
-    z-index: 99;
-    width: 100%;
-    max-width: 768px;
-    margin: 0 0 30px;
-    overflow: auto;
-    color: #fff;
-    background: #fff;
-    border-bottom: 2px solid #ccc;
-  }
-  .container {
-    width: 95%;
-    max-width: 768px;
-    margin: 0 auto;
-    clear: both;
-  }
-  nav {
-    float: right;
-    margin-top: 25px;
-    padding-right: 15px;
-  }
-  .container {
-    width: 95%;
-    max-width: 768px;
-    margin: 0 auto;
-    clear: both;
-  }
-  .main-section {
+@media only screen and (max-width: 594px){
+body{
+  font-size:22px;
+}
+
+#logo {
+      float: left;
+      width: 420px;
+      height: 90px;
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 90px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      background: #4aaaa5;
+    }
+
+    .auth-image {
     float: left;
-    width: 100%;
-    max-width: 768px;
-    padding: 30px;
-    margin: 0 0 40px;
-    background: #fff;
-    border: 1px solid #ddd;
+    width: 245px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+    padding-bottom: 15px;
   }
-  .sidebar {
-    float: right;
-    width: 100%;
-    max-width: 768px;
-    padding: 30px;
-    margin-bottom: 20px;
-    background: #fff;
-    border: 1px solid #ddd;
-  }
-  h1 {
-    padding-bottom: 5px;
-    font-size: 22px;
-    line-height: 49px;
-    border-bottom: 2px solid #ddd;
-  }
-}
 
-@media only screen and (max-width: 980px){
+  #main-container {
+    padding-top: 200px;
+  }
 
 }
-
