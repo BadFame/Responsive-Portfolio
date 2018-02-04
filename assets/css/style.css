@@ -150,7 +150,7 @@ h3,
   float: left;
   width: 100%;
   max-width: 650px;
-  padding: 30px;
+  padding: 17px;
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
@@ -177,7 +177,7 @@ h3,
 }
 
 .work h3 {
-  position: absolute;
+  position: relative;
   bottom: 20px;
   width: 100%;
   padding: 15px;
@@ -238,8 +238,6 @@ input[type=submit] {
   border: 0 none;
 }
 
-
-
 /*Media Queries*/
 /***************/
 @media only screen and (max-width: 980px){
@@ -273,7 +271,7 @@ input[type=submit] {
   }
   .main-section {
     max-width: 768px;
-    padding: 30px;
+    padding: 22px;
   }
   .sidebar {
     max-width: 768px;
@@ -282,6 +280,10 @@ input[type=submit] {
     padding-bottom: 5px;
     font-size: 22px;
     border-bottom: 2px solid #ddd;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 15px;
   }
 }
 @media only screen and (max-width: 640px){
@@ -320,4 +322,12 @@ input[type=submit] {
     .auth-image {
       width: 100%;
     }
+    .work {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 20px 0 25px;
+    overflow: auto;
+    }
+  
 }
